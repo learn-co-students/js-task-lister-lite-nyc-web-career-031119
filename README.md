@@ -18,7 +18,7 @@ Instead of relying on unit tests, this lab is deliverable driven. You will be re
 
 ### Structuring Your Code:
 
-You've been provided with a basic HTML file, as well as a `src/index.js` file where you can implement your solution. Focus on getting the feature working while using your knowledge to write readable, maintainable code. 
+You've been provided with a basic HTML file, as well as a `src/index.js` file where you can implement your solution. Focus on getting the feature working while using your knowledge to write readable, maintainable code.
 
 ### Deliverables:
 
@@ -33,11 +33,11 @@ You've been provided with a basic HTML file, as well as a `src/index.js` file wh
 
 If you finish early, try to implement one or more of the following:
 
-- A delete function that will remove tasks from your list
-- A priority value selected from a dropdown that is used to determine the color of the text in the list (e.g. red for high priority, yellow for medium, green for low)
+<!-- - A delete function that will remove tasks from your list -->
+<!-- - A priority value selected from a dropdown that is used to determine the color of the text in the list (e.g. red for high priority, yellow for medium, green for low) -->
   - As a challenge, implement a sorting functionality that displays the tasks ASC/DESC based on priority
-- An additional input field (e.g. user, duration, date due)
-- Ability to edit tasks
+<!-- - An additional input field (e.g. user, duration, date due) -->
+<!-- - Ability to edit tasks -->
 - Something of your choice! The main objective is to add a feature that allows the user's input to affect the DOM
 
 [example]: https://learn-co-curriculum.github.io/js-task-lister-lite/
