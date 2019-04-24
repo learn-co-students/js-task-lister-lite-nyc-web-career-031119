@@ -31,6 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     li.innerText = `Name:${username} Task: ${userinput}`
     console.log(option)
+    commentForm.reset()
 
     list.appendChild(li)
     if (option === "High") {
