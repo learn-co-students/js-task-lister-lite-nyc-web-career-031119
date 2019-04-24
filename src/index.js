@@ -23,8 +23,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const li = document.createElement('li')
 
-    let btn = document.createElement('button')
-    btn.innerText = "Delete"
 
     let edit = document.createElement('button')
     edit.innerText = "Edit"
@@ -44,6 +42,11 @@ document.addEventListener("DOMContentLoaded", () => {
     li.appendChild(edit)
 
       // DELETE BUTTON //
+
+      let btn = document.createElement('button')
+      btn.innerText = "Delete"
+
+
       btn.addEventListener("click", function() {
         li.remove()
       })
