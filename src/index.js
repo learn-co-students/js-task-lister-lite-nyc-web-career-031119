@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // identify form element
   const taskForm = document.getElementById('create-task-form');
-  
+
   // identify form input
   const description = document.getElementById('new-task-description');
 
@@ -18,11 +18,23 @@ document.addEventListener("DOMContentLoaded", () => {
   // add input to element
   function addTodoTask(event){
     event.preventDefault();
-    // alert('clicked that button');
+
+    // make new li
     let newTask = document.createElement('li');
-    // console.log(newTask);
+
+    // add user input to li
     newTask.innerText = description.value;
-    console.log(newTask);
+
+    // add delete button to li item
+    let deleteTaskBtn = document.createElement('button');
+    newTask.appendChild(deleteTaskBtn);
+
+    deleteTaskBtn.innerText = 'X';
+    // remove task item from todo list on click
+    deleteTaskBtn.onclick = function(){
+      newTask.remove();
+    }
+
     todoList.appendChild(newTask);
     // clear input field
     taskForm.reset(); // reset function is available for form elements
